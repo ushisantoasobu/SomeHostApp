@@ -1,0 +1,6 @@
+framework module FeatureNoby {
+  umbrella header "FeatureNoby-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - FeatureNoby (0.1.0)
+
+DEPENDENCIES:
+  - FeatureNoby (from `../SomeModules/FeatureNoby`)
+
+EXTERNAL SOURCES:
+  FeatureNoby:
+    :path: "../SomeModules/FeatureNoby"
+
+SPEC CHECKSUMS:
+  FeatureNoby: 735cace8adc1cc4c43a31408b0ab563468c7640a
+
+PODFILE CHECKSUM: 90ffdd5a2429251e2a2fa2ab995348a9cd234292
+
+COCOAPODS: 1.10.1

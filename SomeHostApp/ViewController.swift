@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FeatureNoby
 
 class ViewController: UIViewController {
 
@@ -15,5 +16,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func nobyButtonTapped(_ sender: Any) {
+        let vc = FeatureNobyTopViewController.instantiate()
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
