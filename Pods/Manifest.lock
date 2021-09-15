@@ -1,22 +1,24 @@
 PODS:
-  - DesignSystem (0.1.0)
-  - FeatureNoby (0.1.0):
-    - DesignSystem
+  - UshisanSomeModules (0.0.1):
+    - UshisanSomeModules/DesignSystem (= 0.0.1)
+  - UshisanSomeModules/DesignSystem (0.0.1)
 
 DEPENDENCIES:
-  - DesignSystem (from `../SomeModules/DesignSystem`)
-  - FeatureNoby (from `../SomeModules/FeatureNoby`)
+  - UshisanSomeModules (from `https://github.com/ushisantoasobu/SomeModules.git`)
+  - UshisanSomeModules/DesignSystem (from `https://github.com/ushisantoasobu/SomeModules.git`)
 
 EXTERNAL SOURCES:
-  DesignSystem:
-    :path: "../SomeModules/DesignSystem"
-  FeatureNoby:
-    :path: "../SomeModules/FeatureNoby"
+  UshisanSomeModules:
+    :git: https://github.com/ushisantoasobu/SomeModules.git
+
+CHECKOUT OPTIONS:
+  UshisanSomeModules:
+    :commit: affee1d25581e9d1ec9cb6eb412531fdb2a76050
+    :git: https://github.com/ushisantoasobu/SomeModules.git
 
 SPEC CHECKSUMS:
-  DesignSystem: a1abad81efb5c949ac9fa0aea3de572ba90a12a2
-  FeatureNoby: a0171184552d36f0d0bc8f7db761f409d179c656
+  UshisanSomeModules: a8cc150182fcf214e2f38cc4583d107fb258e447
 
-PODFILE CHECKSUM: 140424a91a13483ae99bf10a9dfb78e00339fad9
+PODFILE CHECKSUM: 74a0f2dc6dd26383ff4bef4f6766bda77b47ddee
 
 COCOAPODS: 1.10.1

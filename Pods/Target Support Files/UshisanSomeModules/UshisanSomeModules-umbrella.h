@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double DesignSystemVersionNumber;
-FOUNDATION_EXPORT const unsigned char DesignSystemVersionString[];
+FOUNDATION_EXPORT double UshisanSomeModulesVersionNumber;
+FOUNDATION_EXPORT const unsigned char UshisanSomeModulesVersionString[];
 

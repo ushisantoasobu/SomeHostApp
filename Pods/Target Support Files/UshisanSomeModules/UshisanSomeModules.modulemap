@@ -1,0 +1,6 @@
+framework module UshisanSomeModules {
+  umbrella header "UshisanSomeModules-umbrella.h"
+
+  export *
+  module * { export * }
+}
