@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-SomeHostApp/Pods-SomeHostApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DesignSystem/DesignSystem.framework
 ${BUILT_PRODUCTS_DIR}/FeatureNoby/FeatureNoby.framework
